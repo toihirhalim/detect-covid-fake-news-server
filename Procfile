@@ -1,0 +1,1 @@
+web: strawberry server app
