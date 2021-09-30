@@ -1,5 +1,5 @@
 from nltk.stem import WordNetLemmatizer
-from words_pos_tag import nltk_tag_to_wordnet_tag, get_pos_tag
+from .words_pos_tag import nltk_tag_to_wordnet_tag, get_pos_tag
 
 
 lemmatizer = WordNetLemmatizer()

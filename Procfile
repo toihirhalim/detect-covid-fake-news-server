@@ -1,1 +1,1 @@
-web: strawberry server app
+web: python manage.py runserver

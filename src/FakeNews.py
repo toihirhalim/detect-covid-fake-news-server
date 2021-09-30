@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
-df = pd.read_csv('corona_fake.csv')
+df = pd.read_csv('data/corona_fake.csv')
 
 df = df.fillna('')
 df['title_text_source'] = df['title'] + ' ' + df['text'] + ' ' + df['source']

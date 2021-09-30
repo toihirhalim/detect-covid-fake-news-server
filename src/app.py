@@ -1,13 +1,13 @@
 import strawberry
-from Scraping import get_text
-from Tokenize import tokenize_by_words, tokenize_by_sentences
-from StopWords import remove_stop_words_and_numerics
-from Stemming import stemmer_porter, stemmer_lancaster, isri_lancaster
-from Bag_of_words import get_bag_of_words
-from lemmatizing import lemmatize
-from words_pos_tag import get_list_pos_tag
-from SentimentAnalysis import get_sentiment
-from FakeNews import analyse
+from .Scraping import get_text
+from .Tokenize import tokenize_by_words, tokenize_by_sentences
+from .StopWords import remove_stop_words_and_numerics
+from .Stemming import stemmer_porter, stemmer_lancaster, isri_lancaster
+from .Bag_of_words import get_bag_of_words
+from .lemmatizing import lemmatize
+from .words_pos_tag import get_list_pos_tag
+from .SentimentAnalysis import get_sentiment
+from .FakeNews import analyse
 from typing import List
 
 
