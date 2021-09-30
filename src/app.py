@@ -1,4 +1,5 @@
 import strawberry
+import data.nltk_downloads
 from .Scraping import get_text
 from .Tokenize import tokenize_by_words, tokenize_by_sentences
 from .StopWords import remove_stop_words_and_numerics
