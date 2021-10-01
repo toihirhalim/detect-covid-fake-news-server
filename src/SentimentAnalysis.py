@@ -1,5 +1,6 @@
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
+
 sia = SentimentIntensityAnalyzer()
 
 
