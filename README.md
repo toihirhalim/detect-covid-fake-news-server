@@ -30,3 +30,6 @@ pip install requirements.txt
 ```bash
 python3 manage.py runserver
 ```
+## License
+
+[MIT](LICENSE)
