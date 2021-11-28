@@ -11,7 +11,7 @@ cd detect-covid-fake-news-server
 ```
 ### Create a virtuan environnement
 ```bash
-python3 -m venv
+python3 -m venv venv
 ```
 ### Activate the virtual environement
 #### On Windows
@@ -24,7 +24,7 @@ source tvenv/bin/activate
 ```
 ### Install requirements
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ### Start the server
 ```bash
